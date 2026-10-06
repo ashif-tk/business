@@ -1,0 +1,215 @@
+/**
+ * GlobalTrade Exports - Product Catalog Data
+ * Contains realistic demo products with high quality image references,
+ * full specifications, categories, origin, availability, and export/import types.
+ *
+ * To add a new product or replace images, simply update this array.
+ */
+
+export const products = [
+  {
+    id: 1,
+    name: "Premium Green Cardamom",
+    category: "Agricultural",
+    shortDescription: "High-grade fragrant green cardamom pods sourced directly from the Western Ghats of Kerala.",
+    description: "Our premium 8mm+ green cardamom is handpicked from pristine plantations in the Western Ghats of Kerala. Recognized for its intense aroma, vibrant green color, and high essential oil content, it meets stringent international quality standards for European and Middle Eastern markets.",
+    image: "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=800&q=80",
+    origin: "Kerala, India",
+    availability: "In Stock (Year-round)",
+    type: "Export",
+    featured: true,
+    minOrderQuantity: "500 Kg",
+    packaging: "25kg vacuum sealed food-grade cartons",
+    grade: "Bold Extra Grade (8mm+)",
+    hsCode: "090831"
+  },
+  {
+    id: 2,
+    name: "Tellicherry Black Pepper",
+    category: "Food",
+    shortDescription: "Globally celebrated bold black peppercorns with robust piperine pungency and deep flavor.",
+    description: "Sun-dried Tellicherry Garbled Extra Bold (TGSEB) black peppercorns from Malabar Coast. Sun-ripened on the vine, mechanically sorted, and graded to ensure uniform size, moisture control (<11%), and rich pungency for culinary and industrial extraction.",
+    image: "https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=800&q=80",
+    origin: "Kerala, India",
+    availability: "In Stock",
+    type: "Export",
+    featured: true,
+    minOrderQuantity: "1,000 Kg",
+    packaging: "50kg multi-layer jute / PP bags",
+    grade: "TGSEB Extra Bold (4.75mm+)",
+    hsCode: "090411"
+  },
+  {
+    id: 3,
+    name: "Pure Virgin Coconut Oil & Coir Products",
+    category: "Agricultural",
+    shortDescription: "Cold-pressed extra virgin coconut oil and premium eco-friendly coconut coir peat substrates.",
+    description: "Derived from organically cultivated coconuts from coastal groves. Cold-pressed without heat or chemicals to preserve natural lauric acid, fresh aroma, and vitamins. We also supply washed, low-EC compressed coir pith blocks for international hydroponics and horticulture.",
+    image: "https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=800&q=80",
+    origin: "Kerala, India",
+    availability: "In Stock",
+    type: "Export",
+    featured: true,
+    minOrderQuantity: "1 FCL (20ft Container)",
+    packaging: "IBC Totes / 200L Steel Drums / Retail Glass Bottles",
+    grade: "100% Raw Extra Virgin, Food Grade",
+    hsCode: "151311"
+  },
+  {
+    id: 4,
+    name: "Alphonso & Banganapalli Fresh Mangoes",
+    category: "Agricultural",
+    shortDescription: "Naturally ripened GI-tagged sweet mangoes handpicked, hot-water treated, and air-freighted.",
+    description: "Premium export-grade Alphonso and Banganapalli mangoes. Grown under GAP (Good Agricultural Practices) certified orchards, harvested at ideal maturity, scientifically sorted, hot-water dip treated, and packaged in APEDA-approved packhouses for swift global air delivery.",
+    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=800&q=80",
+    origin: "India",
+    availability: "Seasonal (March - July)",
+    type: "Export",
+    featured: true,
+    minOrderQuantity: "2 Metric Tons (Air Cargo)",
+    packaging: "3kg / 5kg ventilated corrugated export boxes",
+    grade: "Grade A Export Quality (250g - 350g per piece)",
+    hsCode: "080450"
+  },
+  {
+    id: 5,
+    name: "Fresh Cavendish & Nendran Bananas",
+    category: "Agricultural",
+    shortDescription: "Farm-fresh premium green Cavendish and traditional GI Nendran bananas for global export.",
+    description: "Export-standard Cavendish (G9) and Kerala Nendran bananas cultivated along nutrient-rich riverbanks. Strict residue-free protocols, uniform finger calibration, washing, de-handing, and controlled atmosphere reefer container handling guarantee freshness upon port arrival.",
+    image: "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80",
+    origin: "South India",
+    availability: "In Stock (Year-round)",
+    type: "Export",
+    featured: false,
+    minOrderQuantity: "1 Reefer FCL (40ft Container)",
+    packaging: "13.5kg / 18kg telescope export cartons with vacuum polybags",
+    grade: "Class 1 (Calibre 39-47 mm, length 20cm+)",
+    hsCode: "080390"
+  },
+  {
+    id: 6,
+    name: "Premium Raw & Roasted Cashew Nuts",
+    category: "Food",
+    shortDescription: "Wholesome W-240 and W-320 jumbo cashew kernels with crisp crunch and creamy texture.",
+    description: "Processed from select raw cashew nuts in state-of-the-art steam-shelling facilities. Free from infestation, expertly graded by size (W-240, W-320, splits), and packed in nitrogen-flushed flexi-pouches to maintain pristine freshness and crunch over international sea voyages.",
+    image: "https://images.unsplash.com/photo-1509912760195-451e065c71d6?auto=format&fit=crop&w=800&q=80",
+    origin: "India",
+    availability: "In Stock",
+    type: "Export",
+    featured: false,
+    minOrderQuantity: "500 Kg",
+    packaging: "11.34kg (25 lbs) tin canisters or 22.68kg flexi-packs",
+    grade: "W-240 / W-320 Whole White",
+    hsCode: "080132"
+  },
+  {
+    id: 7,
+    name: "Packaged Organic Tea & Spiced Ready Mixes",
+    category: "Food",
+    shortDescription: "Artisan orthodox tea blends and authentic South Asian culinary spice blends for retail.",
+    description: "Export-packaged gourmet teas from high-altitude Nilgiri and Munnar estates, paired with export-ready culinary spice mixes. Formulated with zero artificial preservatives, non-GMO, and certified compliant with FDA and EU food safety standards.",
+    image: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=800&q=80",
+    origin: "India",
+    availability: "In Stock",
+    type: "Export",
+    featured: true,
+    minOrderQuantity: "2,000 Units",
+    packaging: "Retail foil pouches with custom private labeling options",
+    grade: "SFTGFOP1 Orthodox / Food Grade Blends",
+    hsCode: "090240"
+  },
+  {
+    id: 8,
+    name: "Pure Cotton Textiles & Organic Garments",
+    category: "Textiles",
+    shortDescription: "100% GOTS certified combed organic cotton yarn, home furnishings, and casual apparel.",
+    description: "Premium textile goods produced from long-staple Indian cotton. We supply woven fabrics, hotel-grade bed linens, bath towels, and ready-to-wear knit apparel tailored to international retail brand specifications with reactive non-toxic dyes.",
+    image: "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=800&q=80",
+    origin: "India",
+    availability: "In Stock",
+    type: "Export",
+    featured: true,
+    minOrderQuantity: "1,000 Pieces",
+    packaging: "Moisture-resistant polybags in heavy-duty shipping cartons",
+    grade: "GOTS & OEKO-TEX Standard 100 Certified",
+    hsCode: "520811"
+  },
+  {
+    id: 9,
+    name: "Handcrafted Bell Metal & Coir Art",
+    category: "Handicrafts",
+    shortDescription: "Authentic handmade traditional brassware, Aranmula metal mirrors, and artisanal home decor.",
+    description: "Master artisan crafted cultural artifacts, brass decorative lamps (Nilavilakku), natural coir floor coverings, and sustainable bamboo decor pieces. Ideal for premium home decor boutiques, luxury hospitality venues, and international art collectors.",
+    image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
+    origin: "Kerala, India",
+    availability: "Made to Order / In Stock",
+    type: "Export",
+    featured: false,
+    minOrderQuantity: "100 Pieces",
+    packaging: "Individual foam-cushioned shockproof gift boxes",
+    grade: "Museum & Artisan Grade 100% Handmade",
+    hsCode: "741999"
+  },
+  {
+    id: 10,
+    name: "Biodegradable Packaging Materials",
+    category: "Other",
+    shortDescription: "Eco-friendly corrugated cartons, compostable barrier films, and paper honey-comb padding.",
+    description: "Sustainable industrial and retail packaging solutions sourced from ISO-certified manufacturing partners. Designed for high tensile strength, puncture resistance, and complete compostability, assisting enterprises in meeting green packaging regulations.",
+    image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80",
+    origin: "Global / India",
+    availability: "In Stock",
+    type: "Import",
+    featured: false,
+    minOrderQuantity: "5,000 Units",
+    packaging: "Palletized shrink-wrapped bundles",
+    grade: "FSC Certified Recyclable & Compostable",
+    hsCode: "481910"
+  },
+  {
+    id: 11,
+    name: "Automated Food Processing Machinery",
+    category: "Other",
+    shortDescription: "Heavy-duty commercial sorting, grinding, and automated vacuum packaging lines.",
+    description: "High-precision food processing machinery imported from leading engineering manufacturers in Europe and East Asia. Includes optical spice sorters, hygienic stainless steel SS-316 pulpers, and multi-head computerized weighing and filling equipment.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    origin: "Germany / Taiwan",
+    availability: "Available for Import Delivery",
+    type: "Import",
+    featured: false,
+    minOrderQuantity: "1 Unit",
+    packaging: "Seaworthy ISPM-15 heat-treated wooden crates",
+    grade: "CE & ISO 9001 Certified Industrial Grade",
+    hsCode: "843880"
+  },
+  {
+    id: 12,
+    name: "Eco-Friendly Bamboo Tableware & Consumer Goods",
+    category: "Handicrafts",
+    shortDescription: "Naturally treated zero-plastic bamboo dinnerware, cutleries, and organic personal care goods.",
+    description: "Sturdy, reusable, and biodegradable consumer lifestyle items crafted from renewable bamboo fibers and birch wood. Chemical-free, microwave safe up to 2 minutes, and fully degradable within 90 days of commercial composting.",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
+    origin: "India & East Asia",
+    availability: "In Stock",
+    type: "Import",
+    featured: false,
+    minOrderQuantity: "2,500 Units",
+    packaging: "Kraft paper retail boxes in master export cartons",
+    grade: "Food Contact Grade (FDA & LFGB Compliant)",
+    hsCode: "441911"
+  }
+];
+
+// Helper categories list for filtering
+export const productCategories = [
+  "All",
+  "Agricultural",
+  "Food",
+  "Textiles",
+  "Handicrafts",
+  "Other"
+];
+
+// Types for additional filtering
+export const productTypes = ["All", "Export", "Import"];
